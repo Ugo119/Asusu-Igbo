@@ -22,29 +22,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name="com.example.android.AsusuIgbo.MainActivity"
-            >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.AsusuIgbo.Numbers"
-            android:label="Numbers_Ogu"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name="com.example.android.AsusuIgbo.FamilyMembers"
-            android:label="Family Members_Ndi otu ezi n'ulo"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name="com.example.android.AsusuIgbo.Colors"
-            android:label="Colors_Agwa"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name="com.example.android.AsusuIgbo.Phrases"
-            android:label="Phrases_Akara okwu"
-            android:parentActivityName=".MainActivity">
 
-        </activity>
     </application>
 
 </manifest>
