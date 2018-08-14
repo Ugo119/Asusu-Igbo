@@ -82,7 +82,7 @@ public class FamiyMembersFragment extends Fragment {
         eFamWords.add(new Word("Niece", "Nwa nwanne", R.drawable.family_younger_sister, R.raw.nwa_nwanne));
 
         //Create an ArrayAdapter object, adapter from the Custom ArrayAdapter class, WordAdapter
-        WordAdapter adapter = new WordAdapter(getActivity(), eFamWords, R.color.category_numbers);
+        WordAdapter adapter = new WordAdapter(getActivity(), eFamWords, R.color.category_family);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

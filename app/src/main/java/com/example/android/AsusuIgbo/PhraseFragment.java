@@ -90,7 +90,7 @@ public class PhraseFragment extends Fragment {
         ePhraWords.add(new Word("I am playing", "Ana m egwu egwu", R.raw.anam_egwu_egwu));
 
         //Create an ArrayAdapter object, adapter from the Custom ArrayAdapter class, WordAdapter
-        WordAdapter adapter = new WordAdapter(getActivity(), ePhraWords, R.color.category_numbers);
+        WordAdapter adapter = new WordAdapter(getActivity(), ePhraWords, R.color.category_phrases);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

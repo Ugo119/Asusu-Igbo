@@ -6,6 +6,7 @@ public class Word {
 
     //Igbo Translation for the word
     private String mIgboTranslation;
+
     private int mAudioResourceId;
 
     private int mImageResourceId = No_IMAGE_PROVIDED;
@@ -40,14 +41,14 @@ public class Word {
         mAudioResourceId = audioResourceId;
     }
 
-    /**
+    /*
      * Get the Igbo word
      */
     public String getIgboWord() {
         return mIgboTranslation;
     }
 
-    /**
+    /*
      * Get the default translation
      */
     public String getEnglishWord() {
